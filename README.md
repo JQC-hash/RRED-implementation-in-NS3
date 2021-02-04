@@ -23,7 +23,7 @@ module = bld.create_ns3_module('traffic-control', ['point-to-point', 'core', 'ne
 red-vs-rred.cc is a script that allow users to run a default network setting with either RED or RRED mode. Network and RED/RRED parameters can be changed using command line arguments.
 The default network topology adopts the experimental design of [1], which contains 30 legitimate users and 20 LDoS attackers.
 
-To sum up, five NS3 files are modified:
+**To sum up, five NS3 files are modified:**
 
 src/traffic-control/model/red-queue-disc.cc
 
@@ -35,7 +35,7 @@ src/traffic-control/model/queue-disc.h
 
 examples/traffic-control/wscript
 
-One file is newly created:
+**One file is newly created:**
 
 examples/traffic-conttrol/red-vs-rred.cc
 
