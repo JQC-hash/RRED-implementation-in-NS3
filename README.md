@@ -39,6 +39,8 @@ One file is newly created:
 
 examples/traffic-conttrol/red-vs-rred.cc
 
+References:
+
 [1] M. Guirguis, A. Bestavros, and I. Matta, ¡§Exploiting the transients of adaptation for RoQ attacks on Internet resources,¡¨ IEEE, 8 10 2004. 
 
 [2] C.Zhang, J.Yin, Z. Cai, and W. Chen, "RRED: Robust RED Algorithm to Counter Low-Rate Denial-of-Service Attacks," IEEE Communications Letters, p. Vol.14, May 2010.  
