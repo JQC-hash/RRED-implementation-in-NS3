@@ -1,5 +1,9 @@
 # Robust Random Early Detection(RRED) implementation in Network Simulator 3(NS3)
 
+<p align="center">
+  <img src="https://github.com/JQC-hash/RRED-implementation-in-NS3/blob/main/RRED.png">
+</p>
+
 With the network growing and evolving faster than ever in the ear of information, active queue management mechanisms are becoming an integral part of network congestion management. Active queue management mechanism Random Early Detection(RED) and its variants have been widely used handle network congestion and to improve TCP performance. However, these were not designed to resist emerging network attacks. With low-rate denial of service (LDoS) attacks becoming a concerning threat, as the attacks act rather similarly to legitimate traffic, the RED and its variant algorithms have been shown vulnerable to LDoS attacks[1].
 
 To address the original RED¡¦s vulnerability to LDoS attacks, in 2010 Robust RED (RRED) was proposed to counter the attacks by simply detecting whether an incoming packet arrives within a short range after the latest packet dropped by the RED [2].
