@@ -43,6 +43,12 @@ examples/traffic-control/wscript
 
 examples/traffic-conttrol/red-vs-rred.cc
 
+**Development Environment:**   
+Network Simulator 3.30.1 (NS3)  
+Ubuntu 18.04LTS operating system   
+VMware workstation 15 Player  
+Windows 10 desktop  
+
 References:
 
 [1] M. Guirguis, A. Bestavros, and I. Matta, ¡§Exploiting the transients of adaptation for RoQ attacks on Internet resources,¡¨ IEEE, 8 10 2004. 
